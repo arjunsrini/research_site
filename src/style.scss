@@ -1,11 +1,93 @@
 body, html {
-    font-family: "Roboto", sans-serif;
-    height: 100%;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10pt;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
 }
 
-.logo {
-  width: 100px;
-  height: 100px;
-  background-repeat: no-repeat;
-  background-size: contain;
+div.fullpage {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img#arjun {
+  width: 20%;
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+
+#name {
+  font-weight: bold;
+  font-size: large;
+}
+
+ul {
+  padding-left: 25px;
+  list-style-type: none;
+}
+
+ul li {
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;  
+}
+
+div.research {
+  font-weight: bold;
+}
+
+a {
+  color: #2292A4;
+}
+
+a.personal {
+  color: #EF476F;
+}
+
+p {
+  font-weight: 100;
+}
+
+li p.paper_title {
+  font-weight: 500;
+  margin-bottom: -15px;
+  margin-top: 5px;
+}
+
+li p.byline {
+  margin-bottom: -15px;
+}
+
+b.bioinfo {
+  font-size: 11pt;
+  color: #00693e;
+}
+// li p {
+//   line-height: 1.2;
+// }
+
+@media (max-width: 600) {
+  body, html {
+    overflow: unset;
+  }
+  #main {
+    width: 80%;
+  }
 }
