@@ -1,12 +1,6 @@
 import React from 'react';
-// import {
-    // BrowserRouter as Router, Route, NavLink, Routes, Link,
-//   } from 'react-router-dom';
-// import Paper from '@mui/material/Paper';
 import './style.scss';
 import imgarjun from './img/arjun.jpg';
-// import pdffemaleleaders from './pdf/femaleleaders.pdf';
-// console.log(img);
 
 const Home = (props) => {
     return (
@@ -16,6 +10,7 @@ const Home = (props) => {
         </div>
           <div id="name">Arjun Srinivasan</div>
             <p><b className="bioinfo">Dartmouth College</b> senior studying <b className="bioinfo">Economics</b> and <b className="bioinfo">Computer Science</b></p>
+            <p id="emailp">Email: [first name].22@dartmouth.edu</p>
             <div className="research"> Research Papers
             <ul>
                 <li id="#usmobility">
@@ -44,7 +39,7 @@ const Home = (props) => {
                 </li>
             </ul>
             </div>
-            <div className="csProjects">My recent CS projects include <a href="https://open-stata.netlify.app/">OpenStata</a>, software that replicates basic Stata functionality with open-source langauges, and <a href="#">Line @ Dartmouth</a>, a wait-time estimation app.</div>
+            <div className="csProjects">My recent CS projects include <a href="https://open-stata.netlify.app/">OpenStata</a>, a website that replicates basic Stata functionality using Python, and <a href="#">Line @ Dartmouth</a>, a real-time line prediction app.</div>
             <p>In my free time, I listen to <a className="personal" href="https://podcasts.apple.com/us/podcast/the-bruenigs/id1393726435">The Bruenigs</a>,
               catalog <a className="personal" href="https://ammaquotes.github.io/">my mom's advice</a>, and read <a className="personal" href="https://www.goodreads.com/user/show/93761270-arjun-srinivasan">books</a>!
             </p>

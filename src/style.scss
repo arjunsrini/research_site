@@ -83,6 +83,13 @@ b.bioinfo {
 // li p {
 //   line-height: 1.2;
 // }
+span#hiddenspan {
+  display:none;
+}
+
+p#emailp {
+  margin-top: 0;
+}
 
 @media (max-width: 600px) {
 
@@ -129,5 +136,6 @@ b.bioinfo {
   body, html {
     margin-left: 10px;
     margin-right: 10px;
+    overflow: scroll;
   }
 }
