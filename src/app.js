@@ -13,8 +13,8 @@ const Home = (props) => {
             <p id="emailp">Email: [first name].22@dartmouth.edu</p>
             <div className="research"> Research Papers
             <ul>
-                <li id="#usmobility">
-                    <p className="paper_title">US Educational Mobility in the 21st Century</p>
+                <li id="usmobility">
+                    <p className="paper_title">US Educational Mobility in the 20th Century</p>
                     <p className="byline">with Professor Paul Novosad, Charlie Rafkin</p>
                     <p>[draft coming soon][<a href="https://arjunsrini.github.io/mobility-results/">preliminary results</a>]</p>
                     {/* <p>[<a href="#">abstract</a>][<a href="#">manuscript</a>][<a href="#">code</a>]</p>                     */}
