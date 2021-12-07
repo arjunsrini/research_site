@@ -73,6 +73,7 @@ li p.paper_title {
 
 li p.byline {
   margin-bottom: -15px;
+  font-style: italic;
 }
 
 b.bioinfo {
@@ -83,11 +84,50 @@ b.bioinfo {
 //   line-height: 1.2;
 // }
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
+
   body, html {
-    overflow: unset;
+    // overflow: visible;
+    // margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 9pt;
   }
+
+  div.fullpage {
+    margin-top: 0px;
+  }
+
+  ul {
+    padding-left: 0px;
+  }
+
   #main {
-    width: 80%;
+    width: 100%;
+  }
+
+  // div.research {
+    // margin-top: 20px;
+    // margin-bottom: 20px;
+  // }
+
+  li p.paper_title {
+    color: #610345;
+    margin-bottom: -10px;
+  }
+
+  li p.byline {
+    margin-bottom: -10px;
+  }
+
+  b.bioinfo {
+    font-size: 9pt;
+  }
+}
+
+@media (max-height: 700px) {
+  body, html {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
