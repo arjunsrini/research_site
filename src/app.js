@@ -1,6 +1,9 @@
 import React from 'react';
 import './style.scss';
 import imgarjun from './img/arjun.jpg';
+import pdffl from './pdf/femaleleaders.pdf';
+import pdfbr from './pdf/brazilmobility.pdf';
+import Tooltip from '@mui/material/Tooltip';
 
 const Home = (props) => {
     return (
@@ -22,19 +25,19 @@ const Home = (props) => {
                 <li id="schoolfinance">
                     <p className="paper_title">Unified and Unequal: The Effect of Resegregation on School Finance Inequality</p>
                     <p className="byline">Senior thesis with Archita Harathi, advised by Professor Douglas Staiger</p>
-                    <p>[abstract][manuscript][code]</p>
+                    <p>[draft coming soon]</p>
                     {/* <p>[<a href="#">abstract</a>][draft coming soon][<a href="#">code</a>]</p>                     */}
                 </li>
                 <li id="femaleleaders">
                     <p className="paper_title">Small Victories: The Effect of Female Leaders on School Enrollment</p>
                     <p className="byline">with Archita Harathi, advised by Professor Douglas Staiger</p>
-                    <p>[abstract][manuscript][code]</p>
+                    <p>[<a href="./femaleleaders.pdf">manuscript</a>][<a href="https://github.com/arjunsrini/female-leaders">code</a>]</p>
                     {/* <p>[<a href="#">abstract</a>][<a href="#">manuscript</a>][<a href="#">code</a>]</p>                     */}
                 </li>
                 <li id="brazilmobility">
                     <p className="paper_title">Intergenerational Educational Mobility in Brazil</p>
                     <p className="byline">advised by Professor Eric Edmonds</p>
-                    <p>[abstract][manuscript][code]</p>
+                    <p>[<a href="./brazilmobility.pdf">manuscript</a>][<a href="https://github.com/arjunsrini/brazil-mobility">code</a>]</p>
                     {/* <p>[<a href="#">abstract</a>][<a href="#">manuscript</a>][<a href="#">code</a>]</p>                     */}
                 </li>
             </ul>
